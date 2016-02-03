@@ -3,3 +3,11 @@
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
   
   //code here
+  //can reverse itself, will need cb?
+ String.prototype.reverse = function(str) {
+ 	str.split('');
+ 	str.reverse();
+ 	str.join('');
+ 	return str;
+   
+ }
