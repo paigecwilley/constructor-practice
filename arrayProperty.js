@@ -4,10 +4,9 @@
   
   //code here
   //can reverse itself, will need cb?
- String.prototype.reverse = function(str) {
- 	str.split('');
- 	str.reverse();
- 	str.join('');
- 	return str;
-   
+String.prototype.reverse = function(str) {
+    return str.split('').reverse().join('');
  }
+
+ var str = "Ship";
+ console.log(str.reverse(str));
